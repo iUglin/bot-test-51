@@ -1,5 +1,3 @@
-# myfirstbotbot
+# bot-test-51
 
-> Telegram bot: [https://t.me/myfirstbotbot](https://t.me/myfirstbotbot)
-
-This is the starter template for other bots built with [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api)
+> Telegram bot: [https://t.me/GAS_Test_Bot](https://t.me/GAS_Test_Bot)
