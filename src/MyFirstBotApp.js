@@ -49,7 +49,7 @@ class MyFirstBotApp {
             disable_web_page_preview: true,
         });
 
-        let messageText = 'Сейчасб еще секунду';
+        let messageText = 'Сейчас, еще секунду';
 
 
     }
