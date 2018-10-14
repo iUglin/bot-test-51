@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "export $(cat .env | xargs) && node index.js",
-    "start": "node index.js"
+    "start": "export $(cat .env | xargs) && node index.js"
   },
   "repository": {
     "type": "git",

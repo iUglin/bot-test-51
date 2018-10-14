@@ -45,10 +45,7 @@ class MyFirstBotApp {
         let messageText =
             'Привет, ' + this._getName(msg);
 
-        for (let i = 0; i < this._botsBasedOnThisTemplate.length; i++)
-            messageText += this._botsBasedOnThisTemplate[i] + ';\n';
 
-        messageText += '\nEnjoy cooking with <a href="https://github.com/VadimCpp/myfirstbotbot">this template</a>!';
 
         bot.sendMessage(msg.chat.id, messageText, {
             parse_mode: "HTML",
