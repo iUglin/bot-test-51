@@ -36,21 +36,22 @@ class MyFirstBotApp {
         //
         // TODO: view logs on your server
         //
-        console.log('');
-        console.log(JSON.stringify(msg));
+        //console.log('');
+        //console.log(JSON.stringify(msg));
 
         /**
          * @type {string}
          */
-        let messageText =
-            'Привет, ' + this._getName(msg) + ' приготовся пройти небольшой тест на знание регламентов';
-
-
+        let messageText = 'Привет, ' + this._getName(msg) + ' приступим';
 
         bot.sendMessage(msg.chat.id, messageText, {
             parse_mode: "HTML",
             disable_web_page_preview: true,
         });
+
+        let messageText = 'Сейчасб еще секунду';
+
+
     }
 
     /**
