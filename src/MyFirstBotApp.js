@@ -43,7 +43,7 @@ class MyFirstBotApp {
          * @type {string}
          */
         let messageText =
-            'Привет, ' + this._getName(msg);
+            'Привет, ' + this._getName(msg) + ' приготовся пройти небольшой тест на знание регламентов';
 
 
 
